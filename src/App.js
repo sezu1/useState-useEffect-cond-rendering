@@ -1,10 +1,13 @@
 import './App.css';
-import {User} from "./components/user/User";
+import {UserPage} from "./pages/userPage/UserPage";
+
+
+
 
 function App() {
   return (
     <div className="App">
-        <User/>
+        <UserPage/>
     </div>
   );
 }
